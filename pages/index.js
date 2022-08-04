@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
 
-      <h1>Home page</h1>
-      <p>
+      <h1 className={styles.title}>Home page</h1>
+      <p className={styles.text}>
       What is Lorem Ipsum?
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -20,7 +20,7 @@ It was popularised in the 1960s with the release of Letraset sheets containing L
 
 
       <Link href='/ninjas'>
-        <a>See ninja listing</a>
+        <a className={styles.btn}>See ninja listing</a>
       </Link>
 
      

@@ -1,7 +1,7 @@
 const Footer = () => {
-    return ( <div>
+    return ( <footer>
         <p>Copywrite 2022</p>
-    </div> );
+    </footer> );
 }
  
 export default Footer;
